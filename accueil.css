@@ -1,0 +1,21 @@
+#accueil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 5%;
+    
+}
+#accueil h1{
+    font-weight: bold;
+    font-size: 52px;
+}
+#accueil p{
+    font-size: 20px;
+}
+.accueil-text{
+
+}
+.accueil-text{
+
+}

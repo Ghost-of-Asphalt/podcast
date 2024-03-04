@@ -17,48 +17,25 @@ body {
     color: #333;
     background-color: #f4f4f4;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    
-
+    justify-content: center;
 }
 
-/* Styles du header */
-header {
-    background-color: #7aff75;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
 
-/* Styles de navigation */
-nav {
-    display: block;
-    margin: 10px 0;
-}
-
-/* Styles principaux des sections */
 main {
-    margin: 20px 0;
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 0 20px;
 }
 
 section {
-    background-color: #fff;
     flex: 1;
     height: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 5%;
+    /*border: solid 0.5px rgba(0, 0, 0, 0.24);*/
 }
 
-/* Styles des titres de section */
-section h2 {
-    margin-bottom: 10px;
-}
 
 /* Styles du footer */
 footer {
@@ -68,21 +45,6 @@ footer {
     padding: 10px 0;
 }
 
-/* Espacements et paddings pour aérer le contenu */
-p {
-    margin-bottom: 10px;
-}
-
-/* Un exemple de style de lien de navigation */
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-nav a:hover {
-    background-color: #555;
-}
 
 /* Styles pour les différents asides, si vous choisissez de les garder */
 aside {

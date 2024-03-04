@@ -1,0 +1,39 @@
+.statistiques-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.statistique {
+    background-color: #fff;
+    border-radius: 4px;
+    width: 200px; /* ou une autre largeur selon votre design */
+    display: flex;
+    gap: 13px;
+}
+.stats-valeur-container{
+
+}
+.barre {
+    height: 85px;
+    width: 4px; /* ou une autre largeur selon votre design */
+    background: rgb(142,218,255);
+    background: linear-gradient(0deg, rgba(142,218,255,1) 0%, rgba(126,246,147,1) 100%);    flex-shrink: 0;
+    border-radius: 7px;
+}
+
+.nombre {
+    font-weight: bold;
+    color: #333;
+}
+
+.texte {
+    color: #666;
+}
+
+/* Ajoutez des médias queries si nécessaire pour rendre le design responsive */
+@media (max-width: 600px) {
+    .statistiques-container {
+        flex-direction: column;
+    }
+}
