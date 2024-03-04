@@ -1,7 +1,8 @@
-<<<<<<< HEAD
-/* Réinitialisation de certains styles par défaut */
-=======
 
+h1{
+    font-weight: bold;
+    font-size: 52px;
+}
 body{
     background-color: aliceblue;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -15,7 +16,6 @@ body{
     color: green;
     font-weight: bold;
 }
->>>>>>> prince
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 

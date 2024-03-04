@@ -1,0 +1,82 @@
+.shopify-unique{
+    display: flex;
+    margin: 0 5%;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+.shopify-unique h1{
+    font-weight: bold;
+    font-size: 52px;
+}
+.shopify-unique p{
+    font-size: 20px;
+}
+.shopify-unique button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .shopify-unique button {
+    --primary-color: #111;
+    --hovered-color: #000000;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    gap: 60px;
+    align-items: center;
+  }
+  
+  .shopify-unique button p {
+    border: none;
+    margin: 0;
+    position: relative;
+    font-size: 30px;
+    color: var(--primary-color);
+  }
+  
+  .shopify-unique button::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--hovered-color);
+    height: 2px;
+    transition: 0.3s ease-out;
+  }
+  
+  .shopify-unique button p::before {
+    position: absolute;
+    /*   box-sizing: border-box; */
+    content: "Subscribe";
+    width: 0%;
+    inset: 0;
+    color: var(--hovered-color);
+    overflow: hidden;
+    transition: 0.3s ease-out;
+  }
+  
+  .shopify-unique button:hover::after {
+    width: 100%;
+  }
+  
+  .shopify-unique button:hover p::before {
+    width: 100%;
+  }
+  
+  .shopify-unique button:hover svg {
+    transform: translateX(4px);
+    color: var(--hovered-color);
+  }
+  
+  .shopify-unique button svg {
+    color: var(--primary-color);
+    transition: 0.2s;
+    position: relative;
+    width: 15px;
+    transition-delay: 0.2s;
+  }
