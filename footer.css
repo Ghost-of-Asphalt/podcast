@@ -1,0 +1,100 @@
+footer {
+  height: 700px;
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+/* this card is inspired form this - https://georgefrancis.dev/ */
+
+footer .card {
+  --border-radius: 0.75rem;
+  --primary-color: #57fa57;
+  --secondary-color: #3c3852;
+  width: 310px;
+  height: 340px;
+  font-family: "Arial";
+  padding: 2rem;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  background: #1c1c1c;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
+  position: relative;
+  color: white;
+  border: solid 0.5px rgba(255, 255, 255, 0.207);
+}
+
+footer .card > * + * {
+  margin-top: 1.1em;
+}
+
+footer.card .card__content {
+  color: var(--secondary-color);
+  font-size: 0.86rem;
+}
+
+footer .card .card__title {
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+footer .card .card__date {
+  color: #8dc487;
+  font-size: 0.8rem;
+}
+
+footer .card .card__arrow {
+  position: absolute;
+  background: var(--primary-color);
+  padding: 0.4rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  bottom: 0;
+  right: 0;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .card svg {
+  transition: 0.2s;
+}
+
+/* hover */
+footer .card:hover .card__title {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+footer .card:hover .card__arrow {
+  background: #111;
+}
+
+footer .card:hover .card__arrow svg {
+  transform: translateX(3px);
+}
+.container-card-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 70px;
+
+}
+footer h1{
+    font-weight: bold;
+    font-size: 52px;
+    margin-top: 70px;
+}
+.container-card-footer .card{
+    text-align: start;
+}
+footer h3{
+    font-weight: bold!important;
+    font-size: 35px!important;
+}
+footer .card__date{
+    margin-top:auto;
+}
+footer .footer-p{
+    margin-top: 25px;
+}

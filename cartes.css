@@ -252,12 +252,15 @@
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
+  padding-top: 100px;
+
 }
 .container-carte {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  padding-top: 50px;
 }
 .carte h1 {
   font-weight: bold;

@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     gap: 250px;
+    padding-top: 100px;
+
 }
 .shopify-unique h1{
     font-weight: bold;
