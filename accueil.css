@@ -4,6 +4,7 @@
     justify-content: center;
     margin: auto;
     padding: 0 5%;
+    gap: 50px;
     
 }
 #accueil h1{
@@ -13,9 +14,11 @@
 #accueil p{
     font-size: 20px;
 }
-.accueil-text{
-
+.accueil-img{
+    border-radius: 10px;
 }
 .accueil-text{
-
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
